@@ -23,9 +23,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/riyaashukla30/3d-portfolio.git"
+    "url": "https://github.com/riyaashukla30/riya-shukla.git"
   },
-  "homepage": "https://github.com/riyaashukla30/3d-portfolio#readme",
+  "homepage": "https://github.com/riyaashukla30/riya-shukla",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -62,8 +62,4 @@
     "typescript": "^7.0.2",
     "vite": "^8.1.4"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 513682edb6855ed53a680d6a5c0195ace34aea39
