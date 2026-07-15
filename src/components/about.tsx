@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import Tilt from "react-parallax-tilt";
+=======
+import { Tilt } from "react-tilt";
+>>>>>>> 513682edb6855ed53a680d6a5c0195ace34aea39
 import { motion } from "framer-motion";
 
 import { SERVICES } from "../constants";
@@ -17,10 +21,18 @@ type ServiceCardProps = {
 const ServiceCard = ({ index, title, icon }: ServiceCardProps) => {
   return (
     <Tilt
+<<<<<<< HEAD
       tiltMaxAngleX={45}
       tiltMaxAngleY={45}
       scale={1}
       transitionSpeed={450}
+=======
+      options={{
+        max: 45,
+        scale: 1,
+        speed: 450,
+      }}
+>>>>>>> 513682edb6855ed53a680d6a5c0195ace34aea39
       className="xs:w-[250px] w-full"
     >
       <motion.div
@@ -28,7 +40,10 @@ const ServiceCard = ({ index, title, icon }: ServiceCardProps) => {
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
         <div className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+<<<<<<< HEAD
           
+=======
+>>>>>>> 513682edb6855ed53a680d6a5c0195ace34aea39
           <motion.img
             whileHover={{ scale: 1.15, rotate: 6 }}
             transition={{ type: "spring", stiffness: 300 }}
@@ -36,23 +51,34 @@ const ServiceCard = ({ index, title, icon }: ServiceCardProps) => {
             alt={title}
             className="w-16 h-16 object-contain"
           />
+<<<<<<< HEAD
 
           <h3 className="text-white text-[20px] font-bold text-center">
             {title}
           </h3>
 
+=======
+          <h3 className="text-white text-[20px] font-bold text-center">
+            {title}
+          </h3>
+>>>>>>> 513682edb6855ed53a680d6a5c0195ace34aea39
         </div>
       </motion.div>
     </Tilt>
   );
 };
 
+<<<<<<< HEAD
 
 // About Section
+=======
+// About
+>>>>>>> 513682edb6855ed53a680d6a5c0195ace34aea39
 export const About = () => {
   return (
     <SectionWrapper idName="about">
       <>
+<<<<<<< HEAD
 
         {/* Title */}
         <motion.div variants={textVariant()}>
@@ -70,6 +96,16 @@ export const About = () => {
         {/* Body */}
         <div className="mt-4 flex lg:flex-row flex-col-reverse items-center gap-10">
 
+=======
+        {/* Title */}
+        <motion.div variants={textVariant()}>
+          <p className={styles.sectionSubText}>Introduction</p>
+          <h2 className={styles.sectionHeadText}>Overview.</h2>
+        </motion.div>
+
+        {/* Body */}
+        <div className="mt-4 flex lg:flex-row flex-col-reverse items-center gap-10">
+>>>>>>> 513682edb6855ed53a680d6a5c0195ace34aea39
           <motion.p
             variants={fadeIn(undefined, undefined, 0.1, 1)}
             className="flex-1 text-secondary text-[17px] max-w-3xl leading-[30px]"
@@ -84,14 +120,20 @@ export const About = () => {
             together!
           </motion.p>
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 513682edb6855ed53a680d6a5c0195ace34aea39
           {/* Profile Photo */}
           <motion.div
             variants={fadeIn("left", "spring", 0.2, 1)}
             className="relative shrink-0"
           >
+<<<<<<< HEAD
 
+=======
+>>>>>>> 513682edb6855ed53a680d6a5c0195ace34aea39
             <motion.div
               animate={{
                 boxShadow: [
@@ -100,6 +142,7 @@ export const About = () => {
                   "0 0 20px 2px rgba(145,94,255,0.35)",
                 ],
               }}
+<<<<<<< HEAD
               transition={{
                 duration: 3,
                 repeat: Infinity,
@@ -117,10 +160,19 @@ export const About = () => {
                   repeat: Infinity,
                   ease: "easeInOut",
                 }}
+=======
+              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+              className="w-[220px] h-[220px] sm:w-[260px] sm:h-[260px] rounded-full p-[3px] bg-gradient-to-br from-[#915eff] to-[#7c3aed]"
+            >
+              <motion.img
+                animate={{ y: [0, -10, 0] }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+>>>>>>> 513682edb6855ed53a680d6a5c0195ace34aea39
                 src={profilePhoto}
                 alt="Riya Shukla"
                 className="w-full h-full object-cover rounded-full border-4 border-tertiary"
               />
+<<<<<<< HEAD
 
             </motion.div>
 
@@ -148,3 +200,19 @@ export const About = () => {
     </SectionWrapper>
   );
 };
+=======
+            </motion.div>
+          </motion.div>
+        </div>
+
+        {/* Service Card */}
+        <div className="mt-20 flex flex-wrap gap-10">
+          {SERVICES.map((service, i) => (
+            <ServiceCard key={service.title} index={i} {...service} />
+          ))}
+        </div>
+      </>
+    </SectionWrapper>
+  );
+};
+>>>>>>> 513682edb6855ed53a680d6a5c0195ace34aea39
