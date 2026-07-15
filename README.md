@@ -53,7 +53,9 @@ Here is the folder structure of this app.
       |--- canvas/
       |--- about.tsx
       |--- banner.tsx
+      |--- certifications.tsx
       |--- contact.tsx
+      |--- cursor-glow.tsx
       |--- experience.tsx
       |--- feedbacks.tsx
       |--- footer.tsx
@@ -61,6 +63,7 @@ Here is the folder structure of this app.
       |--- index.ts
       |--- loader.tsx
       |--- navbar.tsx
+      |--- scroll-progress.tsx
       |--- tech.tsx
       |--- works.tsx
     |-- constants/
@@ -79,14 +82,16 @@ Here is the folder structure of this app.
   |- .env.example
   |- .env/.env.local
   |- .gitignore
+  |- .npmrc.txt
   |- bun.lock
   |- index.html
   |- netlify.toml
+  |- package-lock.json
   |- package.json
   |- postcss.config.cjs
   |- tailwind.config.ts
   |- tsconfig.json
-  |- tsconfig.tsbuildinfo
+  |- vercel.json
   |- vite.config.ts
 ```
 <!--- FOLDER_STRUCTURE_END --->
@@ -188,8 +193,8 @@ Useful resources and dependencies that are used in 3D Portfolio.
 - [postcss](https://www.npmjs.com/package/postcss): ^8.5.19
 - [react](https://www.npmjs.com/package/react): ^19.2.7
 - [react-dom](https://www.npmjs.com/package/react-dom): ^19.2.7
+- [react-parallax-tilt](https://www.npmjs.com/package/react-parallax-tilt): ^1.7.272
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom): ^7.18.1
-- [react-tilt](https://www.npmjs.com/package/react-tilt): ^1.0.2
 - [react-vertical-timeline-component](https://www.npmjs.com/package/react-vertical-timeline-component): ^4.0.0
 - [sonner](https://www.npmjs.com/package/sonner): ^2.0.7
 - [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^3.6.0
