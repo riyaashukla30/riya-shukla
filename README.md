@@ -53,7 +53,9 @@ Here is the folder structure of this app.
       |--- canvas/
       |--- about.tsx
       |--- banner.tsx
+      |--- certifications.tsx
       |--- contact.tsx
+      |--- cursor-glow.tsx
       |--- experience.tsx
       |--- feedbacks.tsx
       |--- footer.tsx
@@ -61,6 +63,7 @@ Here is the folder structure of this app.
       |--- index.ts
       |--- loader.tsx
       |--- navbar.tsx
+      |--- scroll-progress.tsx
       |--- tech.tsx
       |--- works.tsx
     |-- constants/
@@ -82,11 +85,11 @@ Here is the folder structure of this app.
   |- bun.lock
   |- index.html
   |- netlify.toml
+  |- package-lock.json
   |- package.json
   |- postcss.config.cjs
   |- tailwind.config.ts
   |- tsconfig.json
-  |- tsconfig.tsbuildinfo
   |- vite.config.ts
 ```
 <!--- FOLDER_STRUCTURE_END --->
