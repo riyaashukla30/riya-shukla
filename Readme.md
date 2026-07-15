@@ -15,16 +15,20 @@ It includes my **AI/ML projects, internships, certifications, and achievements**
 ## 📸 Screenshots
 
 ### 🏠 Hero Section
-![Hero Section](./assets/ss1.png)
+<img width="1365" height="631" alt="ss1" src="https://github.com/user-attachments/assets/52bf2e15-eba9-4028-a280-bc484d54a640" />
+
 
 ### 💼 Experience Timeline
-![Experience](./assets/ss2.png)
+<img width="1364" height="641" alt="ss2" src="https://github.com/user-attachments/assets/aef89106-57b9-452b-b42c-b06e02043093" />
+
 
 ### 🚀 Projects Section
-![Projects](./assets/ss3.png)
+<img width="1344" height="607" alt="ss3" src="https://github.com/user-attachments/assets/c56e7c75-e06c-4c83-aea3-fde7126ae707" />
+
 
 ### 📜 Certifications & Achievements
-![Certifications](./assets/ss4.png)
+<img width="1357" height="641" alt="ss4" src="https://github.com/user-attachments/assets/250e1dad-0503-4c0e-bf2b-2673cc18c8e4" />
+
 
 ---
 
